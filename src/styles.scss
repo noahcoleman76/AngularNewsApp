@@ -9,3 +9,17 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.box{
+    padding: 10px 10px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box h5{
+    font-size: 18px;
+}
+.box:hover{
+    box-shadow: darkgray 0px 4px 8px 4px;
+}
