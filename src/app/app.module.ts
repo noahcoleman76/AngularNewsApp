@@ -10,7 +10,6 @@ import { BusinessnewsComponent } from './businessnews/businessnews.component';
 import { SportsnewsComponent } from './sportsnews/sportsnews.component';
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
 import { SearchpageComponent } from './searchpage/searchpage.component';
-import { LoginComponent } from './login/login.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AngularFireStorageModule } from '@angular/fire/compat/storage';
@@ -33,7 +32,6 @@ import { AuthService } from './shared/services/auth.service';
     BusinessnewsComponent,
     SportsnewsComponent,
     SearchpageComponent,
-    LoginComponent,
     DashboardComponent,
     SignInComponent,
     SignOutComponent,

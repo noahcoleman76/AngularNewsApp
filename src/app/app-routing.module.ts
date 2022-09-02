@@ -5,7 +5,6 @@ import { TechnewsComponent } from './technews/technews.component'
 import { BusinessnewsComponent } from './businessnews/businessnews.component';
 import { SportsnewsComponent } from './sportsnews/sportsnews.component';
 import { SearchpageComponent } from './searchpage/searchpage.component';
-import { LoginComponent } from './login/login.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
@@ -18,7 +17,6 @@ const routes: Routes = [
   { path: 'business', component: BusinessnewsComponent }, //business news
   { path: 'sports', component: SportsnewsComponent }, //sports news
   { path: 'search', component: SearchpageComponent }, //search
-  { path: 'login', component: LoginComponent }, //login
   { path: 'sign-in', component: SignInComponent },
   { path: 'register-user', component: SignUpComponent },
   { path: 'dashboard', component: TopheadingComponent },
