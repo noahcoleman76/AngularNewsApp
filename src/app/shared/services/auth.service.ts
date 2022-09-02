@@ -44,7 +44,7 @@ export class AuthService {
         });
       })
       .catch((error) => {
-        window.alert(error.message);
+        window.alert('Invalid Email or Username');
       });
   }
   // Sign up with email/password
@@ -75,9 +75,10 @@ export class AuthService {
       .sendPasswordResetEmail(passwordResetEmail)
       .then(() => {
         window.alert('Password reset email sent, check your inbox.');
+        window.location.href = "/sign-in"
       })
       .catch((error) => {
-        window.alert(error);
+        window.alert('Invalid Email');
       });
   }
   // Returns true when user is looged in and email is verified
