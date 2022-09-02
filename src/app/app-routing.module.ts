@@ -14,10 +14,10 @@ import { VerifyEmailComponent } from './components/verify-email/verify-email.com
 const routes: Routes = [
   { path: '', redirectTo: '/sign-in', pathMatch: 'full' },
   { path: 'home', redirectTo: '/dashboard', pathMatch: 'full' }, //home
-  { path: 'dashboard/tech', component: TechnewsComponent }, //tech news
+  { path: 'tech', component: TechnewsComponent }, //tech news
   { path: 'business', component: BusinessnewsComponent }, //business news
-  { path: 'dashboard/sports', component: SportsnewsComponent }, //sports news
-  { path: 'dashboard/search', component: SearchpageComponent }, //search
+  { path: 'sports', component: SportsnewsComponent }, //sports news
+  { path: 'search', component: SearchpageComponent }, //search
   { path: 'login', component: LoginComponent }, //login
   { path: 'sign-in', component: SignInComponent },
   { path: 'register-user', component: SignUpComponent },
