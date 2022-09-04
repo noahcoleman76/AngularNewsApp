@@ -1,25 +1,26 @@
 <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" [routerLink]="['/home']"><img class="logo" src="assets/logo-transparent.png"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" [routerLink]="['/home']">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" [routerLink]="['/tech']">Tech News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" [routerLink]="['/business']">Business</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" [routerLink]="['/sports']">Sports</a>
-          </li>
-        </ul>
+  <div class="container-fluid">
+    <a class="navbar-brand" [routerLink]="['/home']"><img class="logo" src="assets/logo-transparent.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" [routerLink]="['/home']">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" [routerLink]="['/tech']">Tech News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" [routerLink]="['/business']">Business</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" [routerLink]="['/sports']">Sports</a>
+        </li>
+      </ul>
+      <div class="right-nav">
         <form class="form-inline">
           <div class="input-group">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="searchTerm"
@@ -28,10 +29,13 @@
               [routerLink]="['/search']">Search</button>
           </div>
         </form>
+        <a class="nav-link profile-link" aria-current="page" [routerLink]="['/profile']">
+          <img src="assets/images/usericon.png" style="width: 25px;"> My Profile</a>
       </div>
     </div>
-  </nav>
-<div class="container-fluid mt-5">
+  </div>
+</nav>
+<div class="container-fluid mt-5 articles">
 
     <h4>Business News</h4>
 

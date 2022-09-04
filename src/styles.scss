@@ -61,3 +61,22 @@ body{
 .google{
     width: 35px;
 }
+.media{
+    display: flex;
+    align-items: center;
+}
+.media-body{
+    margin-left: 25px;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+.profile-link{
+    padding: 5px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.articles{
+    margin-bottom: 50px;
+}
